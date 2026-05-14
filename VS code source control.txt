@@ -1,0 +1,75 @@
+===============================================================================
+                       GIT COMMANDS CHEATSHEET FOR BEGINNERS
+===============================================================================
+
+1. CREATING A NEW REPOSITORY & UPLOADING FIRST TIME
+-------------------------------------------------------------------------------
+# Run these inside a brand-new local folder you want to send to GitHub:
+
+git init
+  -> Turns your local folder into a smart Git tracking repository.
+
+git branch -M main
+  -> Renames your default local timeline to "main" to match GitHub.
+
+git remote add origin github.com
+  -> Bridges your local folder to your specific GitHub web link.
+
+git add .
+  -> Puts all files in your folder onto the staging loading dock.
+
+git commit -m "Initial commit"
+  -> Saves a permanent snapshot of those staged files on your hard drive.
+
+git push -u origin main
+  -> Uploads your snapshot to GitHub and links the branches for shortcuts.
+
+
+2. DOWNLOADING A REPOSITORY FOR THE FIRST TIME (CLONING)
+-------------------------------------------------------------------------------
+# Run these to download a project that already exists on GitHub:
+
+cd Desktop
+  -> Moves your terminal focus to your Desktop (or any folder path you type).
+
+git clone github.com
+  -> Downloads the complete repository folder from GitHub into that folder.
+
+
+3. DAILY WORK: CREATING A PR THE PROFESSIONAL WAY
+-------------------------------------------------------------------------------
+# Follow this exact sequence for daily updates to trigger a Pull Request:
+
+git pull origin main
+  -> Downloads any updates your teammates made so your code is fresh.
+
+git checkout -b feature-branch-name
+  -> Creates and steps into a new separate branch to keep "main" safe.
+
+# [ Make your code changes inside VS Code now ]
+
+git status
+  -> Lists out exactly which files you modified (visible in red text).
+
+git add .
+  -> Stages your modified files to prepare them for saving.
+
+git commit -m "Description of changes"
+  -> Saves the snapshot locally on your new branch.
+
+git push -u origin feature-branch-name
+  -> Uploads your branch to GitHub so you can open a PR on the website.
+
+
+4. USEFUL MAINTENANCE COMMANDS
+-------------------------------------------------------------------------------
+git remote -v
+  -> Shows the exact GitHub URLs currently linked to your project folder.
+
+git remote set-url origin NEW-URL
+  -> Overwrites a broken or incorrect GitHub link with a fresh one.
+
+git log --oneline
+  -> Shows a clean, simplified list of your past local commit saves.
+
+===============================================================================
