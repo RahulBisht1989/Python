@@ -13,6 +13,6 @@ print("Age: " + str(age))
 print("Adult: " + is_adult)
 
 total = int(input("Enter total expense: "))
-tax = total * 0.18
+tax = total * 0.10
 
 print("Tax is: "+ str(tax))
