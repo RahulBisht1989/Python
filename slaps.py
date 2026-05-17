@@ -1,5 +1,5 @@
 import random
-slaps = [3,0,6,1,10,15,100,2,8,0]
+slaps = range(10)
 
 name = input("What is your name? \n")
 
