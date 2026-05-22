@@ -1,0 +1,5 @@
+===== INVOICE SUMMARY =====
+Total Invoices : 5
+Total Amount   : $6350.0
+Average Amount : $1270.0
+===========================
