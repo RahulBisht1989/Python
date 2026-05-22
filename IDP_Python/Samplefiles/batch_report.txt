@@ -1,0 +1,12 @@
+===== DAILY BATCH REPORT =====
+Total Documents   : 5
+Successful        : 3
+Failed            : 2
+Needs Review      : 3
+==============================
+
+INV_001      | Acme Corp    | 1500.0       | SUCCESS  | 95   | ✅ OK
+INV_002      | Beta Ltd     | 2000.0       | FAILED   | 40   | ⚠️  Review
+INV_003      | Gamma Inc    | 750.0        | SUCCESS  | 85   | ✅ OK
+INV_004      | Delta Co     | 1200.0       | FAILED   | 60   | ⚠️  Review
+INV_005      | Echo Ltd     | 900.0        | SUCCESS  | 72   | ⚠️  Review
