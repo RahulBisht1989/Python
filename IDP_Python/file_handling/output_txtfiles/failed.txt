@@ -1,0 +1,5 @@
+===== FAILED INVOICES =====
+INV_002  | Beta Ltd    | $2000.0   | Confidence: 40%
+INV_004  | Delta Co    | $1200.0   | Confidence: 60%
+===========================
+Total Failed: 2

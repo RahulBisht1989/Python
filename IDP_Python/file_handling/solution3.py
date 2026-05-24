@@ -8,8 +8,6 @@
 def summary(dataset,summaryfile="summary.txt"):
     total_invoices=0
     all_amount=[]
-    total_amount=0
-    average_amount = 0
     try:
         with open(dataset,"r") as file:
             for line in file:
@@ -29,7 +27,7 @@ def summary(dataset,summaryfile="summary.txt"):
                 all_amount.append(float(parts[2]))
 
             total_amount=sum(all_amount)
-            average_amount = total_amount/total_invoices
+            average_amount = total_amount/total_invoices if total_invoices>0 else 0
 
             line = ("===== INVOICE SUMMARY =====\n"
                     f"Total Invoices : {total_invoices}\n"
