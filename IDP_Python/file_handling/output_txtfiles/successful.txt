@@ -1,0 +1,6 @@
+===== SUCCESSFUL INVOICES =====
+INV_001  | Acme Corp   | $1500.0   | Confidence: 95%
+INV_003  | Gamma Inc   | $750.0    | Confidence: 85%
+INV_005  | Echo Ltd    | $900.0    | Confidence: 72%
+===============================
+Total Successful: 3

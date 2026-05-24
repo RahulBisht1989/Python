@@ -1,5 +1,5 @@
 import os
-base_dir= r"C:\Users\49206071\Python\IDP_Python\file_handling\output_txtfiles"
+base_dir= r"D:\Python\IDP_Python\file_handling\output_txtfiles"
 os.makedirs(base_dir,exist_ok=True)
 file_path= os.path.join(base_dir,"dataset.txt")
 
