@@ -13,7 +13,7 @@ def summary_process(invoices):
         success_rate = round((successful/total)*100,2) if total > 0 else 0.0
 
         summary={
-            "total" : total,
+            "total" : total, 
             "successful" : successful,
             "failed" : failed,
             "success_rate" : success_rate,
