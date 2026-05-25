@@ -1,0 +1,7 @@
+{
+    "invoice_id": "INV_001",
+    "vendor": "Acme Corp",
+    "amount": 1500.0,
+    "status": "SUCCESS",
+    "confidence": 95
+}

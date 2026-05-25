@@ -1,0 +1,43 @@
+{
+    "total": 5,
+    "successful": 3,
+    "failed": 2,
+    "success_rate": 60.0,
+    "invoices": [
+        {
+            "invoice_id": "INV_001",
+            "vendor": "Acme Corp",
+            "amount": 1500.0,
+            "status": "SUCCESS",
+            "confidence": 95
+        },
+        {
+            "invoice_id": "INV_002",
+            "vendor": "Beta Ltd",
+            "amount": 2000.0,
+            "status": "FAILED",
+            "confidence": 40
+        },
+        {
+            "invoice_id": "INV_003",
+            "vendor": "Gamma Inc",
+            "amount": 750.0,
+            "status": "SUCCESS",
+            "confidence": 85
+        },
+        {
+            "invoice_id": "INV_004",
+            "vendor": "Delta Co",
+            "amount": 1200.0,
+            "status": "FAILED",
+            "confidence": 60
+        },
+        {
+            "invoice_id": "INV_005",
+            "vendor": "Echo Ltd",
+            "amount": 900.0,
+            "status": "SUCCESS",
+            "confidence": 72
+        }
+    ]
+}

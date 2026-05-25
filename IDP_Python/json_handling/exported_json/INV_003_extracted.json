@@ -1,0 +1,7 @@
+{
+    "invoice_id": "INV_003",
+    "vendor": "Gamma Inc",
+    "amount": 750.0,
+    "status": "SUCCESS",
+    "confidence": 85
+}

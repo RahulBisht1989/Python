@@ -1,0 +1,7 @@
+{
+    "invoice_id": "INV_002",
+    "vendor": "Beta Ltd",
+    "amount": 2000.0,
+    "status": "FAILED",
+    "confidence": 40
+}

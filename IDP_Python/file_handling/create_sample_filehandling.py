@@ -1,12 +1,13 @@
 import os
-
+from pathlib import Path
 invoices = """INV_001,Acme Corp,1500,SUCCESS,95
 INV_002,Beta Ltd,2000,FAILED,40
 INV_003,Gamma Inc,750,SUCCESS,85
 INV_004,Delta Co,1200,FAILED,60
 INV_005,Echo Ltd,900,SUCCESS,72"""
 
-BASE_DIR = r"C:\Users\49206071\Python\IDP_Python"
+dynamic_path = Path(__file__).resolve().parent
+BASE_DIR = dynamic_path
 FILE_DIR = os.path.join(BASE_DIR,"Samplefiles")
 FILE_NAME = "invoices.txt"
 
