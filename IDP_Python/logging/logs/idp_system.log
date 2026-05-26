@@ -1,0 +1,29 @@
+2026-05-26 20:10:16 | INFO     | idp_system.batch     | Batch started — 3 invoices
+2026-05-26 20:10:16 | DEBUG    | idp_system.processor | Starting processing: INV_001
+2026-05-26 20:10:16 | INFO     | idp_system.processor | INV_001 processed successfully
+2026-05-26 20:10:16 | DEBUG    | idp_system.processor | Starting processing: INV_002
+2026-05-26 20:10:16 | WARNING  | idp_system.processor | INV_002 low confidence: 40%
+2026-05-26 20:10:16 | ERROR    | idp_system.processor | INV_002 processing failed
+2026-05-26 20:10:16 | DEBUG    | idp_system.processor | Starting processing: INV_003
+2026-05-26 20:10:16 | WARNING  | idp_system.processor | INV_003 low confidence: 72%
+2026-05-26 20:10:16 | INFO     | idp_system.processor | INV_003 processed successfully
+2026-05-26 20:10:16 | INFO     | idp_system.batch     | Batch complete — Success: 1 | Failed: 1
+2026-05-26 20:12:05 | INFO     | idp_system.batch     | Batch started — 3 invoices
+2026-05-26 20:12:33 | DEBUG    | idp_system.processor | Starting processing: INV_001
+2026-05-26 20:13:10 | INFO     | idp_system.processor | INV_001 processed successfully
+2026-05-26 20:13:32 | DEBUG    | idp_system.processor | Starting processing: INV_002
+2026-05-26 20:13:37 | WARNING  | idp_system.processor | INV_002 low confidence: 40%
+2026-05-26 20:13:45 | ERROR    | idp_system.processor | INV_002 processing failed
+2026-05-26 20:14:31 | DEBUG    | idp_system.processor | Starting processing: INV_003
+2026-05-26 20:14:38 | WARNING  | idp_system.processor | INV_003 low confidence: 72%
+2026-05-26 20:14:43 | INFO     | idp_system.processor | INV_003 processed successfully
+2026-05-26 20:15:09 | INFO     | idp_system.batch     | Batch started — 3 invoices
+2026-05-26 20:15:09 | DEBUG    | idp_system.processor | Starting processing: INV_001
+2026-05-26 20:15:09 | INFO     | idp_system.processor | INV_001 processed successfully
+2026-05-26 20:15:09 | DEBUG    | idp_system.processor | Starting processing: INV_002
+2026-05-26 20:15:09 | WARNING  | idp_system.processor | INV_002 low confidence: 40%
+2026-05-26 20:15:09 | ERROR    | idp_system.processor | INV_002 processing failed
+2026-05-26 20:15:09 | DEBUG    | idp_system.processor | Starting processing: INV_003
+2026-05-26 20:15:09 | WARNING  | idp_system.processor | INV_003 low confidence: 72%
+2026-05-26 20:15:09 | INFO     | idp_system.processor | INV_003 processed successfully
+2026-05-26 20:15:09 | INFO     | idp_system.batch     | Batch complete — Success: 2 | Failed: 1

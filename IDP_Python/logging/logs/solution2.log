@@ -1,0 +1,10 @@
+2026-05-26 19:40:38 | INFO     | Batch started — 3 invoices
+2026-05-26 19:40:38 | DEBUG    | Starting processing: INV_001
+2026-05-26 19:40:38 | INFO     | INV_001 processed successfully
+2026-05-26 19:40:38 | DEBUG    | Starting processing: INV_002
+2026-05-26 19:40:38 | ERROR    | INV_002 processing failed
+2026-05-26 19:40:38 | WARNING  | INV_002 low confidence: 40%
+2026-05-26 19:40:38 | DEBUG    | Starting processing: INV_003
+2026-05-26 19:40:38 | INFO     | INV_003 processed successfully
+2026-05-26 19:40:38 | WARNING  | INV_003 low confidence: 72%
+2026-05-26 19:40:38 | INFO     | Batch complete — Success: 2 | Failed: 1
