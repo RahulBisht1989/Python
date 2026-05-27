@@ -1,0 +1,10 @@
+2026-05-27 10:44:36 | INFO     | idp_system_logging.batch       | Batch started — 3 invoices
+2026-05-27 10:44:36 | DEBUG    | idp_system_logging.processor   | Starting processing: INV_001
+2026-05-27 10:44:36 | INFO     | idp_system_logging.processor   | INV_001 processed successfully
+2026-05-27 10:44:36 | DEBUG    | idp_system_logging.processor   | Starting processing: INV_002
+2026-05-27 10:44:36 | WARNING  | idp_system_logging.processor   | INV_002 low confidence: 40%
+2026-05-27 10:44:36 | ERROR    | idp_system_logging.processor   | INV_002 processing failed
+2026-05-27 10:44:36 | DEBUG    | idp_system_logging.processor   | Starting processing: INV_003
+2026-05-27 10:44:36 | WARNING  | idp_system_logging.processor   | INV_003 low confidence: 72%
+2026-05-27 10:44:36 | INFO     | idp_system_logging.processor   | INV_003 processed successfully
+2026-05-27 10:44:36 | INFO     | idp_system_logging.batch       | Batch complete — Success: 2 | Failed: 1

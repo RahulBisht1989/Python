@@ -1,5 +1,5 @@
 import logging
-processor_logger = logging.getLogger(f"idp_system.{__name__}")
+processor_logger = logging.getLogger(__name__)
 
 def process_invoices(invoices):
     failed_item = 0

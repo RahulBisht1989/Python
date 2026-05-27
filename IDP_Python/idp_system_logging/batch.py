@@ -1,7 +1,7 @@
 import logging
-from processor import process_invoices
+from idp_system_logging.processor import process_invoices
 
-batch_logger = logging.getLogger(f"idp_system.{__name__}")
+batch_logger = logging.getLogger(__name__)
 
 
 def process_batch(invoices):
